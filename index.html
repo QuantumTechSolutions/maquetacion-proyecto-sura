@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style-button.css">
+    <link rel="icon" href="./assets/img/Quantum_Tech__2_-logo.png">
+    <title>Sura</title>
 </head>
-    <body>
+
+<body>
+    <header>
         <nav class="navbar">
             <div class="container">
-                <a href="#" class="logo">Inicio</a>
+                <a href="#" class="logo">Suramericana</a>
                 <img class="logo-sura" src="./assets/img/logo-sura.png" alt="">
-                <h1 class="logo-empresa">QuantumTech.Solutions</h1>
-                <img class="logo-mitad" src="./assets/img/sura-logo-mitad.png" alt="">
-                <a href="">Creadores</a>
+                <h1 class="logo-empresa"></h1>
+               
                 <ul class="nav-list">
                     <li class="nav-item dropdown">
-                        
+                        <a href="#" class="nav-link">Creadores</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Sebas</a></li>
+                            <li><a href="">Boris</a></li>
+                            <li><a href="">Esneider</a></li>
+                            <li><a href="">Andres</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+
                         <a href="#" class="nav-link">Roles</a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Administrador</a></li>
@@ -24,12 +39,83 @@
                             <li><a href="#">Paciente</a></li>
                         </ul>
                     </li>
-                        <a href="#" class="Acerca">Acerca de Nosotros</a>
-                    
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Acerca de Nosotros</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">somos excelentes programadores</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            
         </nav>
-    </body>
-    
+    </header>
+    <main class="container-main">
+        <section class="container-roles">
+
+            <div class="boton-admin">
+            <button><span class="box">
+                Administrador
+            </span></button>
+            <div class="form-absolute"> 
+                <form class="btn-admin" action="">
+                    <label for="">Agregar especialista</label>
+                    <input type="text" placeholder="nombre completo:">
+                    <input type="text" placeholder="cedula:">
+                    <input type="text" placeholder="especialidad:">
+                    <input type="number" placeholder="salario:">
+                    <input type="text" placeholder="fecha de ingreso:">
+                    <input type="button" value="agregar">
+                    <div><label for="">Acceder especialistas</label></div>
+                    <input type="button" value="acceder">
+                    <div><label for="">buscar especialista</label>
+                        <input type="search" placeholder="cedula">
+                        <input type="button" value="buscar">
+                    </div>
+                    <div><label for="">retirar especialista</label>
+                        <input type="search" placeholder="cedula">
+                        <input type="button" value="retirar">
+                    </div>
+                    
+                </form>
+            </div>
+            </div>
+
+            <div  class="boton-admin">
+            <button><span class="box">
+                Médico Especialista
+            </span></button>
+            <div class="form-absolute">
+                <form class="btn-especialista" action="">
+                    <label for="">Consultar salario</label>
+                    <input type="text" placeholder="Reportes de horas mensual">
+                    <label for="">Adcceder especialistas</label>
+                    <input type="button" value="acceder" id="Adcceder-especialistas">
+                </form>
+            </div>
+            </div>
+
+            <div  class="boton-admin">
+            <button><span class="box">
+                Pacientes
+            </span></button>
+            <div class="form-absolute">
+                <form  class="btn-paciente" action="">
+                    <label for="">Acceder especialistas</label>
+                    <input type="button" value="Acceder">
+                </form>
+            </div>
+            </div>
+        </section>
+        <div class="container-imagen">
+            <img class="imagen-principal" src="assets/img/imagen.png" alt="">
+        </div>
+    </main>
+    <footer class="footer">
+        <h2>QuantumTech.solutions</h2>
+        <img src="./assets/img/Quantum_Tech__2_-logo.png    " alt="">
+    </footer>
+</body>
+
 </html>
