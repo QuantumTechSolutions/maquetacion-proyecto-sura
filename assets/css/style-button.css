@@ -1,5 +1,5 @@
 .box {
-  width: 140px;
+  width: 240px;
   height: auto;
   float: left;
   transition: .5s linear;
@@ -12,6 +12,7 @@
   background: transparent;
   text-transform: uppercase;
   font-weight: 900;
+    
 }
 
 .box:before {
@@ -65,4 +66,12 @@ button {
   outline: none;
   border: none;
   background: transparent;
+}
+
+.agrega{
+  background-color: gray;
+  color: white;
+}
+.retira{
+  background-color: lightcoral;
 }
